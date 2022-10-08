@@ -6,9 +6,9 @@ try:
     end=int(input('beginj->'))
     for i in range(begin,end+1):
         if i %2==0:
-            list.even.append(i)
+            list_even.append(i)
         elif i %2!=0:
-            list.odd.append(i)
+            list_odd.append(i)
         elif i %9==0:
             list_9.append(i)
     print(f'Even numbers: {list_even}\nsum of even:{sum(list_even)}\navg of even:{sum(list_even) / len(list_even)}\n')
